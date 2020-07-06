@@ -10,6 +10,8 @@
 cmake_minimum_required(VERSION 3.9.0)
 
 cmake_policy(SET CMP0048 NEW)
+cmake_policy(SET CMP0072 NEW)
+cmake_policy(SET CMP0054 NEW)
 
 # Add this repository's cmake modules to CMAKE_MODULE_PATH
 list(INSERT CMAKE_MODULE_PATH 0 ${CMAKE_CURRENT_LIST_DIR}/cmake)
